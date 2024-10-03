@@ -1,4 +1,4 @@
-// Enter your code below.
+// Enter your code below. Done
 const resourcesDiv = document.querySelector('.javascript-resources');
 const showButton = document.getElementById('show-resources');
 showButton.addEventListener('click', () => {resourcesDiv.classList.remove('d-none');});
