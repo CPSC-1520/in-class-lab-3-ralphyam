@@ -11,4 +11,8 @@ listItems.forEach(item => {
   item.addEventListener('mouseout', (event) => {
     event.target.classList.remove('fw-bold');
   });
+  item.addEventListener('click', (event) => {
+    console.log(event.target);
+    event.target.classList.add('fst-italic');
+  });
 });
